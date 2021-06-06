@@ -1,0 +1,247 @@
+#field{
+
+								border: 2px solid #2b2eff;								border-radius: 5px;
+
+								background-color:#bfffff;
+
+								
+
+							
+
+								}
+
+								
+
+								#Preview{
+
+								border: 1px solid #ff15bd;
+
+								padding:5px;
+
+								border-radius:5px;
+
+								}
+
+								
+
+								textarea{
+
+								font-size:15px;
+
+								}
+
+								#white{
+
+								display:none;
+
+								background-color: #aafff4;
+
+								}
+
+								#white:hover{
+
+			background-color:#fffc95;}
+
+			#dark{color:white;
+
+			background-color:#434343}
+
+			#dark:hover{
+
+			background-color:#c4ff6a;
+
+}
+
+											/* Dark Mod */
+
+											
+
+											#snackbar2 {
+
+  visibility: hidden;
+
+  min-width: 250px;
+
+  margin-left: -150px;
+
+  background-color: #4740ff;
+
+  color: #c4ff40;
+
+  text-align: center;
+
+  border: 6px solid #00ffff;
+
+  padding: 16px;
+
+  position: fixed;
+
+  z-index: 1;
+
+  left: 50%;
+
+  bottom: 30px;
+
+  font-size: 17px;
+
+  border-radius: 24px;
+
+}
+
+#snackbar2.show {
+
+  visibility: visible;
+
+  -webkit-animation: fadein 0.5s, fadeout 0.5s 2.5s;
+
+  animation: fadein 0.5s, fadeout 0.5s 2.5s;
+
+}
+
+@-webkit-keyframes fadein {
+
+  from {bottom: 0; opacity: 0;} 
+
+  to {bottom: 30px; opacity: 1;}
+
+}
+
+@keyframes fadein {
+
+  from {bottom: 0; opacity: 0;}
+
+  to {bottom: 30px; opacity: 1;}
+
+}
+
+@-webkit-keyframes fadeout {
+
+  from {bottom: 30px; opacity: 1;} 
+
+  to {bottom: 0; opacity: 0;}
+
+}
+
+@keyframes fadeout {
+
+  from {bottom: 30px; opacity: 1;}
+
+  to {bottom: 0; opacity: 0;}
+
+}
+
+/* White Mode */
+
+	#snackbar {
+
+  visibility: hidden;
+
+  min-width: 250px;
+
+  margin-left: -150px;
+
+  background-color: #ff40e7;
+
+  color: #ffffff;
+
+  text-align: center;
+
+  border: 6px solid #00ffff;
+
+  padding: 16px;
+
+  position: fixed;
+
+  z-index: 1;
+
+  left: 50%;
+
+  bottom: 30px;
+
+  font-size: 17px;
+
+  border-radius: 24px;
+
+}
+
+#snackbar.show {
+
+  visibility: visible;
+
+  -webkit-animation: fadein 0.5s, fadeout 0.5s 2.5s;
+
+  animation: fadein 0.5s, fadeout 0.5s 2.5s;
+
+}
+
+@-webkit-keyframes fadein {
+
+  from {bottom: 0; opacity: 0;} 
+
+  to {bottom: 30px; opacity: 1;}
+
+}
+
+@keyframes fadein {
+
+  from {bottom: 0; opacity: 0;}
+
+  to {bottom: 30px; opacity: 1;}
+
+}
+
+@-webkit-keyframes fadeout {
+
+  from {bottom: 30px; opacity: 1;} 
+
+  to {bottom: 0; opacity: 0;}
+
+}
+
+@keyframes fadeout {
+
+  from {bottom: 30px; opacity: 1;}
+
+  to {bottom: 0; opacity: 0;}
+
+}
+
+#dark , #white{
+
+				font-size:20px;
+
+				padding:10px;
+
+			 border:2px solid #80ffac;
+
+			 border-radius: 6px 10px;
+
+}
+
+#font{
+
+				font-size:18px;
+
+				background-color:#ff559e;
+
+				border:5px solid #ffd26a;
+
+				border-radius: 8px;
+
+				
+
+}
+
+#prvbtn{
+
+				font-size: 30px;
+
+				color:#00eaff;
+
+				background-color:#ff40d2;
+
+				border:2px solid #ffd26a;
+
+				border-radius:6px;
+
+}
